@@ -7,21 +7,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<div class="countdown">
-  <h1>Compte à rebours</h1>
-  <div id="timer">
-    <span id="days"></span>
-    <span id="hours"></span>
-    <span id="minutes"></span>
-    <span id="seconds"></span>
-  </div>
-</div>
-
-<script src="script.js"></script>
-</body>
-</html>
-
 // Date de fin du compte à rebours
 const countDownDate = new Date("2024-01-06T17:00:00").getTime();
 
@@ -44,3 +29,19 @@ const countdown = setInterval(function() {
     document.getElementById("timer").innerHTML = "<h2>Temps écoulé !</h2>";
   }
 }, 1000);
+
+<div class="countdown">
+  <h1>Compte à rebours</h1>
+  <div id="timer">
+    <span id="days"></span>
+    <span id="hours"></span>
+    <span id="minutes"></span>
+    <span id="seconds"></span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
