@@ -1,29 +1,15 @@
 # Astroworld's Adventure Le Manga
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Compte à rebours</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-  <div class="banner">
-  <h1>Mon Site Web</h1>
-  <p>Un site incroyable pour des contenus incroyables.</p>
-</div>
-<body>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
-<div class="countdown">
-  <h1>Compte à rebours</h1>
-  <div id="timer">
-    <span id="days"></span>
-    <span id="hours"></span>
-    <span id="minutes"></span>
-    <span id="seconds"></span>
-  </div>
-</div>
+.countdown {
+  margin-top: 100px;
+}
 
-<script src="script.js"></script>
-</body>
-</html>
-
-
+#timer span {
+  display: inline-block;
+  font-size: 2em;
+  margin: 0 10px;
+}
