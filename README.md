@@ -6,6 +6,10 @@
   <title>Compte à rebours</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+  <div class="banner">
+  <h1>Mon Site Web</h1>
+  <p>Un site incroyable pour des contenus incroyables.</p>
+</div>
 <body>
 
 <div class="countdown">
@@ -22,19 +26,4 @@
 </body>
 </html>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Mon Site Web</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
 
-<div class="banner">
-  <h1>Mon Site Web</h1>
-  <p>Un site incroyable pour des contenus incroyables.</p>
-</div>
-
-</body>
-</html>
